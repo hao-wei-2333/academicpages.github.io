@@ -83,10 +83,10 @@ author:
   name             : "Hao Wei"
   avatar           : "profile_self.png"
   bio              : "我是一只阿婆猪，我特别喜欢睡觉，一觉睡到下午，我的老婆叫丹丹"
-  location         : "Location:No.3 Taicheng Road, Yangling, Shaanxi, China, 712100"
+  location         : "Location"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    : #"http://yourfullgooglescholarurl.com"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
