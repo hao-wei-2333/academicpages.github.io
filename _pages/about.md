@@ -1,6 +1,9 @@
 ---
 permalink: /
 title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Portfolio item number 1"
+excerpt: "Short description of portfolio item number 1<br/><img src='/images/profile_self.png'>"
+
 excerpt: "About me"
 author_profile: true
 redirect_from: 
