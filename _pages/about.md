@@ -1,7 +1,6 @@
 ---
 permalink: /
-title: "hhhhhhhhhhhhhhhhhhhhhhhhhhh"
-<br/>
+title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
 <img src='/images/500x300.png'>"
 
 excerpt: "About me"
