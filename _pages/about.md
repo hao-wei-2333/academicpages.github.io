@@ -2,7 +2,7 @@
 permalink: /
 title: "hhhhhhhhhhhhhhhhhhhhhhhhhhhacademicpages is a ready-to-fork GitHub Pages template for academic personal websites"
 excerpt: "hhhhhhhhhhhhhhhhhhhhhhhhhh<br/>
-<img src='/images/profile_self.png'>"
+<img src='/images/500x300.png'>"
 
 excerpt: "About me"
 author_profile: true
