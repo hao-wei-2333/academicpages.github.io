@@ -7,9 +7,10 @@ environment, the developed pollinator achieved a pollen deposition efficiency of
 date: 2023-08-30
 venue: 'Journal 1'
 paperurl: 'http://nwafu-davyhao.github.io/files/0-S0168169923005811-main.pdf'
-citation: 'Hao, Wei, Xinting Ding, Zhi He, Kai Li, Weixin Gong, Zixu Li, Zhen Yang, and Congjie Cui. "Development and evaluation of precision liquid pollinator for kiwifruit." Computers and Electronics in Agriculture 213 (2023): 108193. (Q1 Top)'
+citation: 'Hao, Wei, Xinting Ding, Zhi He, Kai Li, Weixin Gong, Zixu Li, Zhen Yang, and Congjie Cui. "Development and evaluation of precision liquid pollinator for kiwifruit." Computers and Electronics in Agriculture 213 (2023): 108193. (Q1 Top)'<br>
 ---
-This paper is about the number 1. The number 2 is left for future work.
+Cultivation of kiwifruit heavily relies on assisted pollination, and sufficient pollination can enhance fruit quality. A precision liquid pollinator for kiwifruit robotic pollination was developed as part of the research, and it was optimized with the aim of improving pollination quality while saving pollen usage. The pollinator employs a grating ruler to measure the stroke of a pneumatic hydraulic cylinder to achieve precise control of pollen suspension dosage, and uses an internal mixing air-assisted nozzles to spray pollen suspension for pollination. Through experiments of optimizing pollen suspension volume control, constructing of pollination distance prediction model, and measuring droplet size distribution, a working range of air pressure and liquid pressure was established. Eight sets of air–liquid pressure parameters were selected to evaluate the planar pollen deposition of the pollination device, and the optimal parameters were applied to pollinate kiwifruit flowers. The results indicated that reducing droplet size enhanced the overall pollen deposition rate.. In a windless laboratory 
+environment, the developed pollinator achieved a pollen deposition efficiency of 21.15% under an air pressure of 0.15 MPa and liquid pressure of 0.25 MPa. This precision liquid pollination device is advantageous for precise control under high pressure and low flow conditions, suitable for the end effector of autonomous pollination robots. The optimization and evaluation methods established within this study provide reference for the development of precision pollination devices.
 
 [Download paper here](http://nwafu-davyhao.github.io/files/1-s2.0-S0168169923005811-main.pdf)
 

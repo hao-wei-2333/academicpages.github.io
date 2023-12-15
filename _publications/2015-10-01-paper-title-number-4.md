@@ -1,15 +1,17 @@
 ---
-title: "高架草莓的果实识别与果梗分割"
+title: "Calibration of simulation parameters of tea seed based on RSM and GA-BP-GA optimization"
 collection: publications
 permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about 高架草莓的果实识别与果梗分割.'
-date: 2023-09-01
+excerpt: 'n the study of production and processing technologies, such as mechanical shelling, sowing and planting of Camellia oleifera seeds, the lack of accurate discrete element simulation models and parameters results in large simulation and actual errors in the design of equipment. Reverse engineering techniques were used to establish a discrete element model of Camellia oleifera seeds in EDEM software. Through physical tests, the angle of repose (AOR) of Camellia oleifera seeds was measured to be (27.93 ± 1.46)°. The parameters intervals of density, collision recovery coefficient, and static friction coefficient between Camellia seeds and plates were measured. The discrete model parameters of Camellia oleifera seeds were filtered using the Plackett-Burman Design to obtain parameters that had a significant impact on the AOR. The steepest ascent method was carried out to determine the optimal value range of the parameters.
+Central composite design (CCD), response surface method (RSM), and machine learning were used to establish regression models involving the AOR and significant parameters. The results showed that the predictive ability and stability of BP artificial neural network based on genetic algorithm (GA) were better than that of random forest, support vector regression, and BP artificial neural network. GA optimization was used to obtain the static friction coefficient between seeds, which was 0.443, the static friction coefficient between seeds and steel plates was 0.319, and the rolling friction coefficient between seeds was 0.063.
+The simulated AOR was measured to be 27.63°, and the relative error from the actual AOR was 1.09%. RSM optimization was used to obtain the static friction coefficient between seeds, which was 0.383, the static friction coefficient between seeds and steel plates was 0.335, and the rolling friction coefficient between seeds was 0.064. The simulated AOR was measured to be 26.99°, and the relative error from the actual AOR was 3.33%. The results showed that GA BPGA had....'
+date: 2023-02-01
 venue: 'Journal 1'
-paperurl: 'http://nwafu-davyhao.github.io/files/高架草莓的果实识别与果梗分割.pdf'
-citation: '杨珍, 龚惟新, 李凯, 郝伟, 何智, 丁辛亭, 崔永杰*. 2023. 高架草莓的果实识别与果梗分割.农业工程学报, 39(17):172-181.'
+paperurl: 'http://nwafu-davyhao.github.io/files/paper4.pdf'
+citation: 'Ding Xinting, Li Kai, Hao Wei, Yang Qichang, Yan Fengxin, Cui Yongjie*. 2023. Calibration of simulation parameters of tea seed based on RSM and GA-BP-GA optimization. Journal of Agricultural Machinery, 54(2):139-150.'
 ---
 This paper is about the number 3. The number 4 is left for future work.
 
-[Download paper here](http://nwafu-davyhao.github.io/files/高架草莓的果实识别与果梗分割.pdf)
+[Download paper here](http://nwafu-davyhao.github.io/files/paper4.pdf)
 
 Recommended citation: Your Name, You. (2015). "Paper Title Number 3." <i>Journal 1</i>. 1(3).

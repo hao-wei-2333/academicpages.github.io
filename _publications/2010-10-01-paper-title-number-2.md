@@ -1,15 +1,18 @@
 ---
-title: "Kiwifruit Harvesting Damage Analysis and Verification"
+title: "Development of a combined orchard harvesting robot navigation system"
 collection: publications
 permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is Kiwifruit Harvesting Damage Analysis and Verification'
-date: 2023-01-16
+excerpt: 'Our research concerned the development of an autonomous robotic navigation system for orchard harvesting with a dual master-slave mode, the autonomous navigation tractor orchard transport robot being the master followed by a navigation orchard picking robot as the slave. This addresses the problem that in single master-slave navigation mode, agricultural combined harvesting
+equipment cannot stop repeatedly between rows of apple trees and drive continuously when turning. According to distances obtained from a global positioning system (GNSS), ground points were used to switch the navigation mode of the transport and picking robot. A cloth simulation filter (CSF) and random sample consensus (RANSAC) algorithm was used to obtain inter-row waypoints. The GNSS point was manually selected as the turn waypoint of the master and a kinematic model was used to compute the turn waypoints of the slave. Finally, we used a pure pursuit algorithm to track these waypoints sequentially to achieve master-slave navigation and ground head master-slave command navigation. The experimental results show that the data packet loss rate was less than 1.2% when the robot communicated in the orchard row within 50 m which meets the robot orchard communication requirements. The master-slave robot can achieve repeated stops in the row using follow navigation, which meets the demands of joint orchard harvesting. The maximum, minimum,
+mean and standard deviation of position deviation of the master robot were 5.3 cm, 0.8 cm, 2.4 cm, and 0.9 cm, respectively. The position deviations of the slave robot were larger than those of the master robot, with maximum, minimum, mean and standard deviation of 39.7 cm, 1.1 cm, 4.1 cm, and 5.6 cm, respectively. The maximum, minimum, mean and standard deviation of the following
+error between the master-slave robot were 4.4 cm, 0 cm, 1.3 cm, and 1 cm respectively. Concerning the ground head turn, the command navigation method allowed continuous turning, but the lateral deviation between robots was more than 0.3 m and less than 1 m, and the heading deviation was more than 10◦ and less than 90◦.'
+date: 2022-01-31
 venue: 'Journal 1'
-paperurl: '[http://nwafu-davyhao.github.io/files/processes-11-00598-v2.pdf]'
-citation: 'Zixu Li,Zhi He, Wei Hao, Kai Li, Xinting Ding and Yongjie Cui. (2023). &quot;Kiwifruit Harvesting Damage Analysis and Verification.&quot; Processes, 11, 598. https://doi.org/10.3390/pr11020598.'
+paperurl: 'http://nwafu-davyhao.github.io/files/paper2.pdf'
+citation: 'Mao, Wenju, Heng Liu, Wei Hao, Fuzeng Yang, and Zhijie Liu. "Development of a combined orchard harvesting robot navigation system." Remote Sensing 14, no. 3 (2022): 675.'
 ---
 This paper is about the number 2. The number 3 is left for future work.
 
-[Download paper here](https://nwafu-davyhao.github.io/files/processes-11-00598-v2.pdf)
+[Download paper here](http://nwafu-davyhao.github.io/files/paper2.pdf)
 
 Recommended citation: Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2).
