@@ -10,6 +10,6 @@ citation: 'Zixu Li,Zhi He, Wei Hao, Kai Li, Xinting Ding and Yongjie Cui. (2023)
 ---
 This paper is about the number 2. The number 3 is left for future work.
 
-[Download paper here](https://github.com/nwafu-davyhao/nwafu-davyhao.github.io/blob/master/files/processes-11-00598-v2.pdf)
+[Download paper here](https://nwafu-davyhao.github.io/files/processes-11-00598-v2.pdf)
 
 Recommended citation: Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2).
