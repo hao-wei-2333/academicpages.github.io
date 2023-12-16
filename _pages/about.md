@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Wind Tunnel for Pollination Device Testing"
 
 excerpt: "About me"
 author_profile: true
@@ -9,7 +9,49 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+We are currently constructing a wind tunnel for testing pollination devices. Epoxy numerical hand-pasting techniques are being used in the fabrication of the expansion section of the wind tunnel. The contraction section is currently under design and is expected to be completed before the Chinese New Year. This project poses a challenging task. There are uncertainties regarding the contraction section of the wind tunnel, particularly in the selection between the fifth-power curve and the Witoszynski curve. Personally, I prefer the Witoszynski curve. The origin of the Witoszynski curve is mysterious, and Witoszynski himself disappeared without a trace after leaving only this article in Springer. Nevertheless, his research findings are widely circulated. Below is a MATLAB code segment designed by me for plotting the Witoszynski curve, including its multiple derivatives. Due to the special nature of the function construction, the curve remains smooth and continuous regardless of how many times it is differentiated.
+
+% Import symbolic computation toolbox
+syms x;
+
+% Set constants
+R1 = 190;  % Resistance 1
+R2 = 95;   % Resistance 2
+L = 2/3*R1;
+a = sqrt(3)*L;
+
+% Define the symbolic expression for R(x)
+R_sym = R2 / sqrt(1 - (1 - (R2/R1)^2) * ((1 - (3*x^2/a^2))^2) / ((1 + (x^2/a^2))^3));
+
+% Calculate the nth derivative of R
+R_prime_3 = diff(R_sym, x, 5);
+
+% Convert symbolic expressions to numerical functions
+R = matlabFunction(R_sym);
+R_prime_3_num = matlabFunction(R_prime_3);
+
+% Define the range of x values
+x_values = linspace(-L, L, 300);
+
+% Calculate the values of R and its nth derivative
+R_values = R(x_values);
+R_prime_3_values = R_prime_3_num(x_values);
+
+% Plot the original function
+subplot(2, 1, 1);
+plot(x_values, R_values);
+title('R(x)');
+xlabel('x');
+ylabel('R');
+grid on;
+
+% Plot the derivative function
+subplot(2, 1, 2);
+plot(x_values, R_prime_3_values);
+title('Third Derivative of R(x)');
+xlabel('x');
+ylabel('d^3R/dx^3');
+grid on;
 
 A data-driven personal website
 ======
