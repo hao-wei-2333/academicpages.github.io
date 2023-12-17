@@ -1,4 +1,3 @@
----
 permalink: /
 title: "Wind Tunnel for Pollination Device Testing"
 
@@ -11,6 +10,7 @@ redirect_from:
 
 We are currently constructing a wind tunnel for testing pollination devices. Epoxy numerical hand-pasting techniques are being used in the fabrication of the expansion section of the wind tunnel. The contraction section is currently under design and is expected to be completed before the Chinese New Year. This project poses a challenging task. There are uncertainties regarding the contraction section of the wind tunnel, particularly in the selection between the fifth-power curve and the Witoszynski curve. Personally, I prefer the Witoszynski curve. The origin of the Witoszynski curve is mysterious, and Witoszynski himself disappeared without a trace after leaving only this article in Springer. Nevertheless, his research findings are widely circulated. Below is a MATLAB code segment designed by me for plotting the Witoszynski curve, including its multiple derivatives. Due to the special nature of the function construction, the curve remains smooth and continuous regardless of how many times it is differentiated.
 ![Editing a markdown file for a talk](/images/Home1.JPG)
+```matlab
 % Import symbolic computation toolbox
 syms x;
 
@@ -52,24 +52,30 @@ title('Third Derivative of R(x)');
 xlabel('x');
 ylabel('d^3R/dx^3');
 grid on;
+```
+
+<img src='/images/Home2.png'>
 
 Kiwi Precision Liquid Pollination Device
 ======
 This is a precision liquid pollination device designed for kiwi pollination. It allows precise control of the amount of kiwi pollen solution, and the motion stroke of the gas-liquid pressure lever is measured using a grating ruler. Currently, I am continuously optimizing it.
+<img src='/images/Home3.png'>
 
 Kiwi Vortex Pollination Device
 ======
 This is a vortex pollination device for kiwi, involving the technical field of fruit tree pollination devices. It includes a pollen feeder, a pollen mixer, and a vortex generator. The pollen feeder transports pollen to the pollen mixer, which mixes the pollen with gas to form a pollen-air mixture. The pollen mixer can also discharge the pollen-air mixture into the vortex generator, which emits vortices formed by the pollen-air mixture. The vortex generator has a vortex generation chamber, and inside the chamber, there is a first concentration monitoring device. The first concentration monitoring device monitors the concentration of pollen inside the vortex generation chamber. When the concentration reaches the set threshold, the vortex generator emits vortices outward.
+<img src='/images/Home4.jpg'>
 
 ICCV2023
 ------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+This was an unforgettable experience. My girlfriend's paper, "LoTE-Animal: A Long Time-span Dataset for Endangered Animal Behavior Understanding," got accepted at ICCV2023. We went to Paris, France together. Although I may not fully understand everyone's research field, I got to appreciate different cultures and traditions. Here's a friendly link: https://lote-animal.github.io/ If you are researching wildlife conservation, using LoTE-Animal would be an excellent choice.
 
-Create content & metadata
+<img src='/images/Home5.JPG'>
+<!-- Create content & metadata
 ------
 For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
 
-**Markdown generator**
+<!-- **Markdown generator**
 
 I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
 ) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
@@ -83,4 +89,4 @@ Example: editing a markdown file for a talk
 
 For more info
 ------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. --> 

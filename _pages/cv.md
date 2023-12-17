@@ -41,7 +41,7 @@ Skills
 ======
 * Proficient in structural design, capable of independently developing mass-produced computer cases and server racks, 
 * Skilled in using FLUENT and other fluid simulation software.
-* Advanced Biogas Engineer, expert in CSTR anaerobic reactor development.
+* Advanced Biogas Engineer, expert in CSTR anaerobic reactor development .
 
 
 Publications
