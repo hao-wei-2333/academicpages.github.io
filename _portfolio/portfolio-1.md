@@ -1,6 +1,6 @@
 ---
 title: "Robomaster engineering robot"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+excerpt: "This is a robotics design from RoboMaster in the year 2019. <br/><img src='/images/Work1.JPG'>"
 collection: portfolio
 ---
 This is a robotics design from RoboMaster in the year 2019. It achieved good results in the competition. If you would like to learn more, you can download the open-source documentation.
