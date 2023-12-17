@@ -83,8 +83,7 @@ author:
   name             : "Hao Wei"
   avatar           : "profile_self.png"
   bio              : "我是一只阿婆猪，我特别喜欢睡觉，一觉睡到下午，我的老婆叫丹丹"
-  location         : "https://www.google.com.hk/maps/place/%E8%A5%BF%E5%8C%97%E5%86%9C%E6%9E%97%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%E5%8C%97%E6%A0%A1%E5%8C%BA-%E5%9B%BE%E4%B9%A6%E9%A6%86/@34.2846027,108.0720897,16.75z/data=!4m6!3m5!1s0x3663e18cf1dddb91:0xb8cb211c3884b40!8m2!3d34.285478!4d108.074302!16s%2Fg%2F1ptyvry0n?hl=zh-CN&entry=ttu"
-  employer         :
+  location         : "China"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
   email            : "davyhao@nwafu.edu.cn"
@@ -109,7 +108,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  wechat           : "nwafu-davy"
+  wechat           : #  "nwafu-davy"
   vine             :
   weibo            :
   xing             :

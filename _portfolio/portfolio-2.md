@@ -1,0 +1,8 @@
+---
+title: "A Testing Device for Evaluating the Dehazing Performance of Concave-Convex Stick Powder"
+excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+collection: portfolio
+---
+Concave-convex stick powder possesses dehazing properties. In order to find the optimal dehazing effect, a testing device targeting the dehazing performance of concave-convex stick powder was studied. Ultrasonic atomization and semiconductor refrigeration were applied to simulate the environmental humidity and temperature. Nitrocellulose reactions were utilized to generate harmful particles and nitrides, simulating environmental haze particles. The Marx generator produced high voltage for charging the concave-convex stick powder. DS18B20, DHT11, and PMS5003 sensors provided feedback on the environmental conditions. Arduino UNO and Arduino Mega2560 were used to collect data and communicate with the computer through serial communication. The upper computer, utilizing NI LabVIEW, adjusted device parameters to process data returned from the lower computer. The device could operate in any environment with simulated temperatures ranging from 288K to 294K, relative humidity from 40% to 100%, and AQI index from 40 to 600, with a maximum error of ±5%. Applying this device enables the replication of the same haze environment, using the controlled variable method to study the influence of charge amount, particle size, and chemical treatment on the dehazing effect of concave-convex stick powder.
+<img src='/images/Work3.JPG'>
+<img src='/images/Work4.JPG'>
