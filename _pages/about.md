@@ -1,13 +1,12 @@
+---
 permalink: /
-title: "Wind Tunnel for Pollination Device Testing"
-
+title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
 We are currently constructing a wind tunnel for testing pollination devices. Epoxy numerical hand-pasting techniques are being used in the fabrication of the expansion section of the wind tunnel. The contraction section is currently under design and is expected to be completed before the Chinese New Year. This project poses a challenging task. There are uncertainties regarding the contraction section of the wind tunnel, particularly in the selection between the fifth-power curve and the Witoszynski curve. Personally, I prefer the Witoszynski curve. The origin of the Witoszynski curve is mysterious, and Witoszynski himself disappeared without a trace after leaving only this article in Springer. Nevertheless, his research findings are widely circulated. Below is a MATLAB code segment designed by me for plotting the Witoszynski curve, including its multiple derivatives. Due to the special nature of the function construction, the curve remains smooth and continuous regardless of how many times it is differentiated.
 ![Editing a markdown file for a talk](/images/Home1.JPG)
 ```matlab
